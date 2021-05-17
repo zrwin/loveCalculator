@@ -1,0 +1,81 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+
+}
+body{
+    text-align: center;
+        background: url("./freestocks-ChaY8166imQ-unsplash.jpg" );
+        background-repeat: no-repeat;
+        background-size: 100% 100vh;
+        
+}
+
+.main{
+    height: 200px;
+    margin-top: 40px;
+
+}
+
+.main h1{
+    color:rgb(42, 15, 77); 
+    display: inline-block;
+    background: rgba(150, 83, 83,0.6) ;
+    border-radius: 10px;
+    padding: 10px 50px;
+}
+
+.data{
+    height: 300px;
+    
+}
+.data input{
+    border: none;
+    padding: 30px;
+    border-radius: 10px;
+    margin: 15px;
+    opacity: .8;
+    outline: none;
+}
+.btn{
+    border: none;
+    margin: 20px;
+    padding: 15px;
+    border-radius: 10px;
+    background-color: rgba(170, 112, 112, 0.568);
+    font-weight: bold;
+    color: rgb(112, 7, 16);
+    font-family: "Pacifio",cursive;
+}
+
+
+
+.about{
+    color:rgb(9, 4, 34);
+    background: rgba(150, 83, 83,0.6) ;
+    border-radius: 10px;
+    display: inline-block;
+    padding: 10px 50px;
+    font-family: "Pacifio",cursive;
+}
+
+.result{
+    height: 50px;
+    font-size: 30px;
+    color:  rgb(42, 15, 77); 
+    font-family: ;
+}
+
+
+@media only screen and (max-width: 500px)
+{
+    body{
+        background: url("./carolyn-v-iz1OzTbk61c-unsplash.jpg");
+        background-repeat: no-repeat;
+        background-size: 100% 100vh;
+    }
+
+    .btn{
+        background-color: white;
+    }
+}
